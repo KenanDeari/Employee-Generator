@@ -1,7 +1,7 @@
+const consoleTable = require("console.table");
 var mysql = require("mysql");
 var mysql = require("mysql2");
 var inquirer = require("inquirer");
-const consoleTable = require("console.table");
 
 var connection = mysql.createConnection({
     host: "localhost",
@@ -10,7 +10,6 @@ var connection = mysql.createConnection({
     password: "August1998#",
     database: "employeeTracker"
 });
-
 connection.connect(function (err) {
     if (err) throw err;
     initialize();
