@@ -5,9 +5,9 @@ The admin of the application is able to add/remove departments, roles & new hire
 
 
 We can frame this challenge as follows:
-
+--
 As a business owner
 I want to be able to view and manage the departments, roles, and employees in my company
 So that I can organize and plan my business
-
+--
 ___________________________________________________________________________________________________________________________________________________________________
